@@ -77,5 +77,5 @@ class SongsController < Sinatra::Base
     slug = params[:slug]
     @song = Song.find_by_slug(slug)
     erb :"songs/edit"
-  end
+  end 
 end
